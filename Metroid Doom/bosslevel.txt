@@ -1,0 +1,76 @@
+Tile GreyBrick 32 32
+Tile RockBrick 32 96
+Tile RockBrick 32 160
+Tile RockBrick 32 224
+Tile RockBrick 32 288
+Tile RockBrick 32 352
+Tile RockBrick 32 416
+Tile RockBrick 32 480
+Tile RockBrick 32 544
+Tile RockBrick 32 608
+Tile RockBrick 32 672
+Tile RockBrick 96 672
+Tile RockBrick 160 672
+Tile RockBrick 224 672
+Tile RockBrick 288 672
+Tile RockBrick 352 672
+Tile RockBrick 416 672
+Tile RockBrick 480 672
+Tile RockBrick 544 672
+Tile RockBrick 608 672
+Tile RockBrick 672 672
+Tile RockBrick 736 672
+Tile RockBrick 800 672
+Tile RockBrick 864 672
+Tile RockBrick 928 672
+Tile RockBrick 992 672
+Tile RockBrick 1056 672
+Tile RockBrick 1120 672
+Tile RockBrick 1184 672
+Tile RockBrick 1248 672
+Tile RockBrick 1248 608
+Tile RockBrick 1248 544
+Tile RockBrick 1248 480
+Tile RockBrick 1248 416
+Tile RockBrick 1248 352
+Tile RockBrick 1248 288
+Tile RockBrick 1248 224
+Tile RockBrick 1248 160
+Tile RockBrick 1248 96
+Tile RockBrick 1248 32
+Tile GreyBrick 96 32
+Tile GreyBrick 160 32
+Tile Fire 224 15
+Tile GreyBrick 288 32
+Tile Fire 352 15
+Tile GreyBrick 416 32
+Tile Fire 480 15
+Tile GreyBrick 544 32
+Tile Fire 608 15
+Tile GreyBrick 672 32
+Tile Fire 736 15
+Tile GreyBrick 800 32
+Tile Fire 864 15
+NPC  Skree   352 500 0 0 Follow 1 2
+NPC  Rio  480 600 0 0 Follow 1 2
+NPC  GerutaRed  608 200 0 0 Follow 1 2
+Tile GreyBrick 928 32
+Tile GreyBrick 992 32
+Tile GreyBrick 1056 32
+NPC  GerutaRed  1056 500 0 0 Follow 1 2
+NPC  Skree  1120 400 0 0 Follow 1 2
+NPC  GerutaRed  1284 300 0 0 Follow 1 2
+Tile GreyBrick 1120 32
+Tile GreyBrick 1184 32
+Tile GreyBrick 1248 32
+NPC  MotherBrain  992 300 0 0 Follow 0 20
+Tile GreyBrick 1312 32
+Tile GreyBrick 1376 32
+Tile GreyBrick 1440 32
+Tile GreyBrick 1504 32
+Tile GreyBrick 1568 32
+
+
+Background BossBackground 650 280
+Music sounds/StrangerThings.ogg
+Player 128 200 40 90 5 20 20 -0.75 Buster

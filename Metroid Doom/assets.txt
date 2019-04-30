@@ -1,0 +1,121 @@
+Texture   TexStand   images/megaman/stand64.png              
+Texture   TexRun     images/megaman/run64.png                
+Texture   TexAir     images/megaman/air64.png                
+Texture   TexBuster  images/megaman/buster.png
+Texture   TexExplode images/misc/explosion128.png
+Texture   TexCoin    images/misc/coinspin.png
+Texture   TexBrick   images/mario/brick.png
+Texture   TexQ       images/mario/qfade.png
+Texture   TexQ2      images/mario/question2.png
+Texture   TexPipeS   images/mario/pipesmall.png
+Texture   TexPipeT   images/mario/pipetall.png
+Texture   TexCloudB  images/mario/cloudbig.png
+Texture   TexCloudS  images/mario/cloudsmall.png
+Texture   TexBush    images/mario/bush.png
+Texture   TexBushBig images/mario/bushbig.png
+Texture   TexGround  images/mario/ground.png
+Texture   TexBlock   images/mario/block.png
+Texture   TexPole    images/mario/flagpole.png
+Texture   TexPoleTop images/mario/flagtop.png
+Texture   TexFlag    images/mario/flag.png
+Texture   TexBlueBrick images/metroid/BlueTile.png
+Texture   TexGreyBrick images/metroid/GreyTile.png
+Texture   TexGreenBrick images/metroid/GreenTile.png
+Texture   TexRockBrick images/metroid/RockyTile.png
+Texture   TexPurpleBrick images/metroid/PurpleTile.png
+Texture   TexPortal  images/metroid/portal.png
+Texture   TexSRun    images/metroid/SamusRun.png
+Texture   TexSStand  images/metroid/SamusStand.png
+Texture   TexRunShoot  images/metroid/ShootRun.png
+Texture   TexSamusShoot  images/metroid/SamusShoot.png
+Texture   TexTitle   images/metroid/MetroidDoom.png
+Texture   TexMenu    images/metroid/city2.png
+Texture   TextJP      images/metroid/jetpack1.png
+Texture   TextUseJP   images/metroid/jetpack2.png
+Texture   TextJPFire  images/metroid/jetpackfire.png
+Texture   TexFireBlock  images/metroid/fire.png
+Texture   TexGreenPlatform images/metroid/GreenPlatform.png
+Texture   TexLevel1Back images/metroid/level1background.png
+Texture   TexKey        images/metroid/key.png
+Texture   TexJump       images/metroid/jump.png
+Texture   TexDoor       images/metroid/door.png
+Texture   TexOpenDoor   images/metroid/openDoor.png
+Texture   TexPlasmaBullet images/metroid/plasmaBullet.png
+Texture   TexHeart     images/metroid/HeartE2.png
+Texture   Tex2Heart   images/metroid/HeartE1.png
+Texture   Tex3Heart   images/metroid/Heart3.png
+Texture   Tex12Heart    images/metroid/Heart12.png
+Texture   Tex32Heart    images/metroid/Heart32.png
+Texture   TexTektite    images/metroid/tektite.png
+Texture   TexKnight     images/metroid/knight.png
+Texture   TexGerutaRed     images/metroid/GerutaRedD.png
+Texture   TexKraidBrown     images/metroid/KraidBrownR.png
+Texture   TexBossBackground images/metroid/bossbackground.jpg
+Texture   TexMotherBrain images/metroid/MotherBrain.png
+Texture   TexSkree images/metroid/Skree.png
+Texture   TexRio   images/metroid/Rio.png
+Texture   TexShield images/metroid/Shield.png
+Texture   TexInvincible images/metroid/Incincibility.png
+Texture   TexShieldOn   images/metroid/shieldOn.png
+Animation ShieldOn TexShieldOn 6 6
+Animation Invincibility TexInvincible 4 5
+Animation Shield TexShield 4 5
+Animation Rio TexRio 2 3
+Animation Skree TexSkree 3 4
+Animation MotherBrain    TexMotherBrain 4 4
+Animation BossBackground TexBossBackground 1 0
+Animation GerutaRed TexGerutaRed 2 3
+Animation KraidBrown TexKraidBrown 2 3
+Animation Tektite       TexTektite      2   10
+Animation Knight        TexKnight       2   10
+Animation Life12 Tex12Heart  1  0
+Animation Life32 Tex32Heart  1  0
+Animation Life1 TexHeart  1  0
+Animation Life2 Tex2Heart  1  0
+Animation Life3 Tex3Heart  1  0
+Animation Plasma TexPlasmaBullet 9 3
+Animation OpenDoor TexOpenDoor 1 0
+Animation Door TexDoor 9 1
+Animation Jump TexJump 5 3
+Animation Key TexKey 1 0
+Animation Level1Background TexLevel1Back 1 0
+Animation GreenPlat TexGreenPlatform 1 0
+Animation JPF TextJPFire 1 0
+Animation Fire TexFireBlock 2 2
+Animation JP      TextJP  1 0
+Animation JPU     TextUseJP   1 0
+Animation MenuBackground TexMenu  1 0
+Animation Title      TexTitle     22 6
+Animation ShootRun   TexRunShoot  3  10
+Animation SamusShoot TexSamusShoot    1  0
+Animation SStand     TexSStand    1  0
+Animation SRun       TexSRun      4  6
+Animation Portal     TexPortal    20 2
+Animation BlueBrick  TexBlueBrick 1  0
+Animation GreyBrick  TexGreyBrick 1  0
+Animation RockBrick  TexRockBrick 1  0
+Animation GreenBrick TexGreenBrick 1  0
+Animation PurpleBrick TexPurpleBrick 1 0
+Animation Stand      TexStand    1    0   
+Animation Run        TexRun      3   10    
+Animation Air        TexAir      1    0  
+Animation Buster     TexBuster   1    0   
+Animation Explosion  TexExplode 48    2   
+Animation Coin       TexCoin     6    5 
+Animation Question   TexQ        4   10   
+Animation Brick      TexBrick    1    0   
+Animation Question2  TexQ2       1    0   
+Animation PipeTall   TexPipeT    1    0   
+Animation PipeSmall  TexPipeS    1    0   
+Animation CloudBig   TexCloudB   1    0   
+Animation CloudSmall TexCloudS   1    0   
+Animation Bush       TexBush     1    0   
+Animation BushBig    TexBushBig  1    0   
+Animation Ground     TexGround   1    0   
+Animation Block      TexBlock    1    0   
+Animation Flag       TexFlag     1    0   
+Animation Pole       TexPole     1    0   
+Animation PoleTop    TexPoleTop  1    0   
+Font      Arial      fonts/arial.ttf
+Font      Mario      fonts/mario.ttf
+Font      Megaman    fonts/megaman.ttf

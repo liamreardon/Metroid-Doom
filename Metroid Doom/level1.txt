@@ -1,0 +1,124 @@
+Tile GreyBrick 32 32
+Tile GreyBrick 96 32
+Tile GreyBrick 160 32
+Tile GreyBrick 224 32
+Tile GreyBrick 288 32
+Tile GreyBrick 352 32
+Tile GreyBrick 416 32
+Tile Shield    416 80
+Tile GreyBrick 480 32
+Tile GreyBrick 544 32
+Tile GreyBrick 608 32
+Tile GreyBrick 672 32
+Tile Fire      736 15
+Tile Fire      800 15
+Tile Fire      864 15
+Tile Fire      928 15
+Tile Fire      992 15
+Tile Fire      1056 15
+Tile Fire      1120 15
+Tile Fire      1184 15
+NPC  GerutaRed   864 250 0 0 Follow 1 1
+Tile BlueBrick 864 224
+Tile BlueBrick 928 224
+Tile BlueBrick 992 224
+Tile BlueBrick 1056 224
+Tile GreyBrick 1248 32
+Tile GreyBrick 1312 32
+Tile GreyBrick 1376 32
+Tile GreyBrick 1440 32
+Tile GreyBrick 1504 32
+Tile GreyBrick 1568 32
+Tile Fire      1632 15
+Tile Fire      1696 15
+Tile Fire      1760 15
+Tile Fire      1824 15
+Tile GreenPlat 1632 224
+Tile Fire      1888 15
+Tile Fire      1952 15
+Tile GreyBrick 2016 32
+Tile GreyBrick 2080 32
+NPC  GerutaRed   2080 250 0 0 Follow 1 1
+Tile GreyBrick 2144 32
+Tile GreyBrick 2208 32
+Tile GreyBrick 2272 32
+Tile GreyBrick 2336 32
+Tile GreyBrick 2400 32
+Tile GreyBrick 2464 32
+NPC  Skree   2464 400 0 0 Follow 1 2
+Tile GreyBrick 2528 32
+Tile GreenBrick 2528 96
+Tile GreenBrick 2592 96
+Tile GreenBrick 2656 96
+Tile GreenBrick 2720 96
+Tile RockBrick 2592 160
+Tile RockBrick 2656 160
+Tile RockBrick 2720 160
+Tile GreenBrick 2656 224
+Tile GreenBrick 2720 224
+Tile RockBrick 2720 288
+Tile GreyBrick 2592 32
+Tile GreyBrick 2656 32
+NPC  Rio  2720 400 0 0 Follow 1 1
+NPC  Rio  2912 400 0 0 Follow 1 1
+Tile GreyBrick 2720 32
+Tile BlueBrick 2912 416
+Tile BlueBrick 3168 416
+Key Key        3168 480
+Tile GreyBrick 3424 32
+NPC  GerutaRed   3552 250 0 0 Follow 2 2
+NPC  GerutaRed   3552 250 0 0 Follow 2 2
+Tile GreyBrick 3488 32
+Tile GreyBrick 3552 32
+Tile GreyBrick 3616 32
+Tile Door      3680 180
+Dec  OpenDoor  3680 180
+Tile PurpleBrick 3648 326
+Tile PurpleBrick 3648 390
+Tile PurpleBrick 3648 454
+Tile PurpleBrick 3648 518
+Tile PurpleBrick 3648 582
+Tile PurpleBrick 3648 646
+Tile PurpleBrick 3648 710
+Tile PurpleBrick 3748 774
+Tile PurpleBrick 3748 838
+Tile PurpleBrick 3748 902
+
+Tile PurpleBrick 3712 326
+Tile PurpleBrick 3712 390
+Tile PurpleBrick 3712 454
+Tile PurpleBrick 3712 518
+Tile PurpleBrick 3712 582
+Tile PurpleBrick 3712 646
+Tile PurpleBrick 3712 710
+Tile PurpleBrick 3712 774
+Tile PurpleBrick 3712 838
+Tile PurpleBrick 3712 902
+
+Tile GreyBrick 3680 32
+Tile GreyBrick 3744 32
+Tile GreyBrick 3808 32
+Tile GreyBrick 3872 32
+Tile GreyBrick 3936 32
+Tile Portal    3936 160
+Tile GreyBrick 4000 32
+Tile GreyBrick 4064 32
+Tile RockBrick 4064 96
+Tile RockBrick 4064 160
+Tile RockBrick 4064 224
+Tile RockBrick 4064 288
+Tile RockBrick 4064 352
+Tile RockBrick 4064 416
+Tile RockBrick 4064 480
+Tile RockBrick 4064 544
+Tile RockBrick 4064 608
+Tile RockBrick 4064 672
+Tile RockBrick 4064 736
+Tile RockBrick 4064 800
+
+
+Background Level1Background 650 280
+Music sounds/maskoff.ogg
+Player 128 200 40 90 5 20 20 -0.75 Buster 
+Jet JP 928 288
+

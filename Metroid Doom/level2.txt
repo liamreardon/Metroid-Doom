@@ -1,0 +1,85 @@
+Tile GreyBrick 32 32
+Tile GreyBrick 96 32
+Tile GreyBrick 160 32
+Tile GreyBrick 224 32
+Tile GreyBrick 288 32
+Tile GreyBrick 352 32
+Tile GreyBrick 416 32
+Tile GreyBrick 480 32
+Tile GreyBrick 544 32
+Tile GreyBrick 608 32
+Tile GreyBrick 672 32
+Tile GreyBrick      736 15
+Tile GreyBrick      800 15
+Tile GreyBrick      864 15
+Tile GreyBrick      928 15
+Tile GreyBrick 992 15
+Tile GreyBrick 1056 15
+Tile GreyBrick 1120 15
+Tile GreyBrick 1184 15
+Tile BlueBrick 864 288
+Tile BlueBrick 864 352
+Tile BlueBrick 864 416
+Jet JP 950 288
+Tile BlueBrick 864 224
+Tile BlueBrick 928 224
+Tile BlueBrick 992 224
+Tile BlueBrick 1056 244
+NPC  GerutaRed   875 250 0 0 Follow 1 1
+Tile BlueBrick 928 416
+Tile BlueBrick 992 416
+Tile BlueBrick 1056 416
+Tile GreyBrick  1216 15
+Tile Fire 1280 15
+Tile Fire 1344 15
+Tile Fire 1408 15
+Tile GreyBrick 1472 32
+Tile GreyBrick 1504 32
+Tile GreyBrick 1568 32
+Tile Shield    1568 80
+Tile GreyBrick 1696 100
+Tile GreyBrick 1760 100
+NPC  GerutaRed  1696 500 0 0 Follow 1 2
+NPC  Skree  1120 1760 0 0 Follow 1 2
+NPC  GerutaRed  1824 300 0 0 Follow 1 2
+Tile GreyBrick 1824 100
+Tile GreyBrick 2120 240		
+Tile GreyBrick 2144 240
+Tile GreyBrick 2208 240
+Tile GreyBrick 2272 240
+Tile GreyBrick 2336 240
+Tile GreyBrick 2400 240
+Tile Fire 1696 20
+Tile Fire 1760 20
+Tile Fire 1824 20
+Tile Fire 1888 20
+Tile Fire 1952 20
+Tile Fire 2016 20
+Tile Fire 2120 20		
+Tile Fire 2144 20
+Tile Fire 2208 20
+Tile Fire 2272 20
+Tile Fire 2336 20
+Tile Fire 2400 20
+NPC  GerutaRed   2480 250 0 0 Follow 1 1
+Tile GreyBrick 2464 240
+Tile GreyBrick 2592 240
+Tile GreyBrick 2848 240
+Key Key        2484 300
+Tile GreyBrick 3098 240
+Tile GreyBrick 3348 240
+Tile GreyBrick 3598 240
+
+Tile GreyBrick 3928 32
+Tile GreyBrick 3990 32 
+Tile GreyBrick 4054 32
+Tile GreyBrick 4118 32
+Tile GreyBrick 4182 32
+Tile GreyBrick 4246 32
+Tile Door      4090 180
+Dec  OpenDoor  4090 180
+Tile Portal    4230 160
+
+Music sounds/OffLimits.wav
+Background Level1Background 650 280
+Player 128 200 40 90 5 20 20 -0.75 Buster

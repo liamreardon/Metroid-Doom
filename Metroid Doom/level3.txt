@@ -1,0 +1,188 @@
+Tile GreyBrick 32 32
+Tile GreyBrick 96 32
+
+Dec CloudSmall 160 600
+Dec CloudSmall 352 500
+Tile GreyBrick 160 32
+Tile GreyBrick 224 32
+Tile GreyBrick 288 32
+Tile GreyBrick 352 32
+Tile GreyBrick 416 32
+
+
+Tile GreyBrick 480 32
+Tile GreyBrick 544 32
+Tile GreyBrick 608 32
+Tile GreyBrick 672 32
+Tile GreyBrick 736 32
+Dec CloudBig 736 600
+
+Tile GreyBrick 800 32
+Tile GreyBrick 864 32
+NPC  GerutaRed 864 250 0 0 Follow 1 1
+NPC  Rio   864 250 0 0 Follow 2 2
+Tile GreyBrick 928 32
+Tile GreyBrick 992 32
+
+Tile GreyBrick 1056 32
+Tile GreyBrick 1120 32
+Dec CloudBig 1120 550
+Tile GreyBrick 1120 96
+
+Tile GreyBrick 1184 32
+Tile GreyBrick 1248 32
+Tile GreyBrick 1312 32
+Dec CloudSmall 1312 555
+Tile GreyBrick 1376 32
+Tile GreyBrick 1440 32
+Tile GreyBrick 1504 32
+Tile GreyBrick 1568 32
+Tile GreyBrick 1632 32
+Tile GreyBrick 1696 32
+Dec CloudSmall 1696 555
+Tile GreyBrick 1760 32
+Tile GreyBrick 1824 32
+
+Tile GreyBrick 1184 160
+Tile GreyBrick 1248 224
+Tile GreyBrick 1312 288
+Tile GreyBrick 1376 352
+
+Tile GreyBrick 1440 352
+Jet JP 1440 90
+
+
+Tile GreyBrick 1504 352
+Tile GreyBrick 1568 352
+
+Tile GreyBrick 1632 352
+Tile GreyBrick 1696 352
+Tile GreyBrick 1760 352
+Tile GreyBrick 1824 352
+
+Tile RockBrick 1824 288
+Dec RockBrick 1824 224
+Dec RockBrick 1824 160
+Dec RockBrick 1824 96
+Dec CloudBig 1824 555
+
+Tile GreyBrick 1888 32
+Tile GreyBrick 1952 32
+Tile GreyBrick 2016 32
+Tile PipeTall 2016 190
+Tile Shield   2016 350
+Dec CloudSmall 2016 656
+Tile GreyBrick 2080 32
+Tile Fire 2144 32
+Tile Fire 2208 32
+Tile Fire 2272 32
+Tile GreyBrick 2336 32
+
+Dec CloudBig 2208 595
+Tile PipeSmall 2400 128
+
+Tile GreyBrick 2400 32
+Tile GreyBrick 2464 32
+
+
+Dec CloudSmall 2880 555
+
+Tile GreyBrick 2528 32 
+Tile GreyBrick 2592 32
+Tile RockBrick 2656 32
+Tile RockBrick 2720 32
+Tile RockBrick 2720 96
+Dec CloudBig 2720 600
+
+Tile GreenPlat 2784 224
+Tile Fire 2784 32
+Tile Fire 2848 32
+Tile Fire 2912 32
+Tile Fire 2976 32
+Tile Fire 3040 32
+Tile Fire 3104 32
+Tile Fire 3168 32
+NPC  Skree   3168 400 0 0 Follow 1 2
+NPC  Skree   2616 400 0 0 Follow 1 2
+Tile Fire 3232 32
+Tile Fire 3296 32
+Tile Fire 3360 32
+Tile Fire 3424 32
+Tile Fire 3488 32
+Tile Fire 3552 32
+Tile Fire 3616 32
+
+Tile GreyBrick 3680 32
+Key Key 3680 90
+Tile RockBrick 3744 32
+Tile RockBrick 3744 96
+Tile RockBrick 3744 160
+Tile RockBrick 3744 224
+Tile RockBrick 3744 288
+Tile GreyBrick 3616 160
+
+
+Dec CloudSmall 3488 666
+
+Tile GreyBrick 3744 352
+NPC  Rio   3808 400 0 0 Follow 1 1
+Tile GreyBrick 3808 352
+Tile GreyBrick 3872 352
+Tile GreyBrick 3936 352
+Tile GreyBrick 4000 288
+Tile GreyBrick 4064 224
+NPC  Rio   4128 400 0 0 Follow 1 2
+Tile GreyBrick 4128 160
+Tile GreyBrick 4192 96
+Tile GreyBrick 4256 32
+Dec CloudBig 4256 546
+Tile GreyBrick 4320 32
+Tile GreyBrick 4384 32
+Tile GreyBrick 4448 32
+Tile GreyBrick 4448 96
+Tile GreyBrick 4512 32
+Tile GreyBrick 4512 96
+Dec CloudSmall 4515 565
+Tile Door 4512 244
+Dec OpenDoor 4512 244
+
+
+Tile PurpleBrick 4512 395
+Tile PurpleBrick 4512 459
+Tile PurpleBrick 4512 523
+Tile PurpleBrick 4512 587
+Tile PurpleBrick 4512 651
+Tile PurpleBrick 4448 651
+Tile PurpleBrick 4384 651
+
+
+
+Tile GreyBrick 4576 32
+Tile GreyBrick 4576 96
+Tile GreyBrick 4640 32
+Tile GreyBrick 4704 32
+Tile GreyBrick 4768 32
+Tile GreyBrick 4832 32
+Tile GreyBrick 4896 32
+Tile GreyBrick 4896 32
+Tile GreyBrick 4960 32
+Tile GreyBrick 5024 32
+Tile GreyBrick 5088 32
+Tile GreyBrick 5152 32
+Tile GreyBrick 5216 32
+Tile Portal 5216 260
+Tile GreyBrick 5280 32
+Tile GreyBrick 5344 32
+Tile GreyBrick 5408 32
+Tile GreyBrick 5472 32
+
+
+
+
+
+
+
+
+Background Level1Background 650 280
+Music sounds/PumpUpKicks.ogg
+Player 200 200 40 90 5 20 20 -0.75 Buster

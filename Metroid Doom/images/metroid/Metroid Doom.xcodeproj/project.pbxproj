@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B40633121B6DE0300FE1015 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 6B40633021B6DE0300FE1015 /* sounds */; };
+		6B592AFC21A85D5E0081E83E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B592AFB21A85D5E0081E83E /* ResourcePath.mm */; };
+		6B592B1421A85DFE0081E83E /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B592B0E21A85DFE0081E83E /* level3.txt */; };
+		6B592B1521A85DFE0081E83E /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B592B0F21A85DFE0081E83E /* level1.txt */; };
+		6B592B1621A85DFE0081E83E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6B592B1021A85DFE0081E83E /* images */; };
+		6B592B1721A85DFE0081E83E /* assets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B592B1121A85DFE0081E83E /* assets.txt */; };
+		6B592B1821A85DFE0081E83E /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B592B1221A85DFE0081E83E /* level2.txt */; };
+		6B592B1921A85DFE0081E83E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6B592B1321A85DFE0081E83E /* fonts */; };
+		6B592B3121A85E240081E83E /* Assets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B1A21A85E220081E83E /* Assets.cpp */; };
+		6B592B3221A85E240081E83E /* GameState_Play.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B1B21A85E220081E83E /* GameState_Play.cpp */; };
+		6B592B3321A85E240081E83E /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B1D21A85E220081E83E /* GameState.cpp */; };
+		6B592B3421A85E240081E83E /* GameEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B1E21A85E220081E83E /* GameEngine.cpp */; };
+		6B592B3521A85E240081E83E /* Physics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B2021A85E220081E83E /* Physics.cpp */; };
+		6B592B3621A85E240081E83E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B2321A85E220081E83E /* main.cpp */; };
+		6B592B3721A85E240081E83E /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B2621A85E230081E83E /* EntityManager.cpp */; };
+		6B592B3821A85E240081E83E /* Vec2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B2721A85E230081E83E /* Vec2.cpp */; };
+		6B592B3921A85E240081E83E /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B2821A85E230081E83E /* Entity.cpp */; };
+		6B592B3A21A85E240081E83E /* GameState_Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B2921A85E230081E83E /* GameState_Menu.cpp */; };
+		6B592B3B21A85E240081E83E /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B592B3021A85E240081E83E /* Animation.cpp */; };
+		6BA1D71721B6C5C800E61DFD /* bosslevel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BA1D71621B6C5C800E61DFD /* bosslevel.txt */; };
+		6BA1D71921B6CAC700E61DFD /* menusetup.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BA1D71821B6CAC700E61DFD /* menusetup.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B40633021B6DE0300FE1015 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		6B592AF621A85D5E0081E83E /* Metroid Doom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metroid Doom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B592AFA21A85D5E0081E83E /* Metroid Doom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Metroid Doom-Info.plist"; sourceTree = "<group>"; };
+		6B592AFB21A85D5E0081E83E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		6B592AFD21A85D5E0081E83E /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		6B592B0E21A85DFE0081E83E /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		6B592B0F21A85DFE0081E83E /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		6B592B1021A85DFE0081E83E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6B592B1121A85DFE0081E83E /* assets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = assets.txt; sourceTree = "<group>"; };
+		6B592B1221A85DFE0081E83E /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		6B592B1321A85DFE0081E83E /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		6B592B1A21A85E220081E83E /* Assets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assets.cpp; sourceTree = "<group>"; };
+		6B592B1B21A85E220081E83E /* GameState_Play.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState_Play.cpp; sourceTree = "<group>"; };
+		6B592B1C21A85E220081E83E /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		6B592B1D21A85E220081E83E /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		6B592B1E21A85E220081E83E /* GameEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameEngine.cpp; sourceTree = "<group>"; };
+		6B592B1F21A85E220081E83E /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		6B592B2021A85E220081E83E /* Physics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Physics.cpp; sourceTree = "<group>"; };
+		6B592B2121A85E220081E83E /* Vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec2.h; sourceTree = "<group>"; };
+		6B592B2221A85E220081E83E /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		6B592B2321A85E220081E83E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B592B2421A85E230081E83E /* GameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEngine.h; sourceTree = "<group>"; };
+		6B592B2521A85E230081E83E /* GameState_Play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState_Play.h; sourceTree = "<group>"; };
+		6B592B2621A85E230081E83E /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityManager.cpp; sourceTree = "<group>"; };
+		6B592B2721A85E230081E83E /* Vec2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec2.cpp; sourceTree = "<group>"; };
+		6B592B2821A85E230081E83E /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		6B592B2921A85E230081E83E /* GameState_Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState_Menu.cpp; sourceTree = "<group>"; };
+		6B592B2A21A85E230081E83E /* Assets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assets.h; sourceTree = "<group>"; };
+		6B592B2B21A85E230081E83E /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		6B592B2C21A85E230081E83E /* Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Components.h; sourceTree = "<group>"; };
+		6B592B2D21A85E230081E83E /* GameState_Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState_Menu.h; sourceTree = "<group>"; };
+		6B592B2E21A85E230081E83E /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityManager.h; sourceTree = "<group>"; };
+		6B592B2F21A85E240081E83E /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		6B592B3021A85E240081E83E /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		6BA1D71621B6C5C800E61DFD /* bosslevel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bosslevel.txt; sourceTree = "<group>"; };
+		6BA1D71821B6CAC700E61DFD /* menusetup.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menusetup.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B592AF221A85D5E0081E83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B592AEC21A85D5E0081E83E = {
+			isa = PBXGroup;
+			children = (
+				6B592AF821A85D5E0081E83E /* Metroid Doom */,
+				6B592AF721A85D5E0081E83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B592AF721A85D5E0081E83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B592AF621A85D5E0081E83E /* Metroid Doom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B592AF821A85D5E0081E83E /* Metroid Doom */ = {
+			isa = PBXGroup;
+			children = (
+				6B592AFB21A85D5E0081E83E /* ResourcePath.mm */,
+				6B592AFD21A85D5E0081E83E /* ResourcePath.hpp */,
+				6B592B3021A85E240081E83E /* Animation.cpp */,
+				6B592B2F21A85E240081E83E /* Animation.h */,
+				6B592B1A21A85E220081E83E /* Assets.cpp */,
+				6B592B2A21A85E230081E83E /* Assets.h */,
+				6B592B2221A85E220081E83E /* Common.h */,
+				6B592B2C21A85E230081E83E /* Components.h */,
+				6B592B2821A85E230081E83E /* Entity.cpp */,
+				6B592B1C21A85E220081E83E /* Entity.h */,
+				6B592B2621A85E230081E83E /* EntityManager.cpp */,
+				6B592B2E21A85E230081E83E /* EntityManager.h */,
+				6B592B1E21A85E220081E83E /* GameEngine.cpp */,
+				6B592B2421A85E230081E83E /* GameEngine.h */,
+				6B592B2921A85E230081E83E /* GameState_Menu.cpp */,
+				6B592B2D21A85E230081E83E /* GameState_Menu.h */,
+				6B592B1B21A85E220081E83E /* GameState_Play.cpp */,
+				6B592B2521A85E230081E83E /* GameState_Play.h */,
+				6B592B1D21A85E220081E83E /* GameState.cpp */,
+				6B592B1F21A85E220081E83E /* GameState.h */,
+				6B592B2321A85E220081E83E /* main.cpp */,
+				6B592B2021A85E220081E83E /* Physics.cpp */,
+				6B592B2B21A85E230081E83E /* Physics.h */,
+				6B592B2721A85E230081E83E /* Vec2.cpp */,
+				6B592B2121A85E220081E83E /* Vec2.h */,
+				6B592B0021A85D5E0081E83E /* Resources */,
+				6B592AF921A85D5E0081E83E /* Supporting Files */,
+			);
+			path = "Metroid Doom";
+			sourceTree = "<group>";
+		};
+		6B592AF921A85D5E0081E83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B592AFA21A85D5E0081E83E /* Metroid Doom-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B592B0021A85D5E0081E83E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B592B1121A85DFE0081E83E /* assets.txt */,
+				6B40633021B6DE0300FE1015 /* sounds */,
+				6B592B1321A85DFE0081E83E /* fonts */,
+				6B592B1021A85DFE0081E83E /* images */,
+				6BA1D71821B6CAC700E61DFD /* menusetup.txt */,
+				6B592B0F21A85DFE0081E83E /* level1.txt */,
+				6B592B1221A85DFE0081E83E /* level2.txt */,
+				6B592B0E21A85DFE0081E83E /* level3.txt */,
+				6BA1D71621B6C5C800E61DFD /* bosslevel.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B592AF521A85D5E0081E83E /* Metroid Doom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B592B0B21A85D5E0081E83E /* Build configuration list for PBXNativeTarget "Metroid Doom" */;
+			buildPhases = (
+				6B592AF121A85D5E0081E83E /* Sources */,
+				6B592AF221A85D5E0081E83E /* Frameworks */,
+				6B592AF321A85D5E0081E83E /* Resources */,
+				6B592AF421A85D5E0081E83E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metroid Doom";
+			productName = "Metroid Doom";
+			productReference = 6B592AF621A85D5E0081E83E /* Metroid Doom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B592AED21A85D5E0081E83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Liam Reardon";
+				TargetAttributes = {
+					6B592AF521A85D5E0081E83E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B592AF021A85D5E0081E83E /* Build configuration list for PBXProject "Metroid Doom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B592AEC21A85D5E0081E83E;
+			productRefGroup = 6B592AF721A85D5E0081E83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B592AF521A85D5E0081E83E /* Metroid Doom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B592AF321A85D5E0081E83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B592B1821A85DFE0081E83E /* level2.txt in Resources */,
+				6BA1D71921B6CAC700E61DFD /* menusetup.txt in Resources */,
+				6B592B1621A85DFE0081E83E /* images in Resources */,
+				6BA1D71721B6C5C800E61DFD /* bosslevel.txt in Resources */,
+				6B592B1421A85DFE0081E83E /* level3.txt in Resources */,
+				6B40633121B6DE0300FE1015 /* sounds in Resources */,
+				6B592B1921A85DFE0081E83E /* fonts in Resources */,
+				6B592B1521A85DFE0081E83E /* level1.txt in Resources */,
+				6B592B1721A85DFE0081E83E /* assets.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B592AF421A85D5E0081E83E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B592AF121A85D5E0081E83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B592B3821A85E240081E83E /* Vec2.cpp in Sources */,
+				6B592B3121A85E240081E83E /* Assets.cpp in Sources */,
+				6B592B3B21A85E240081E83E /* Animation.cpp in Sources */,
+				6B592B3421A85E240081E83E /* GameEngine.cpp in Sources */,
+				6B592B3A21A85E240081E83E /* GameState_Menu.cpp in Sources */,
+				6B592B3721A85E240081E83E /* EntityManager.cpp in Sources */,
+				6B592B3321A85E240081E83E /* GameState.cpp in Sources */,
+				6B592B3521A85E240081E83E /* Physics.cpp in Sources */,
+				6B592B3621A85E240081E83E /* main.cpp in Sources */,
+				6B592AFC21A85D5E0081E83E /* ResourcePath.mm in Sources */,
+				6B592B3921A85E240081E83E /* Entity.cpp in Sources */,
+				6B592B3221A85E240081E83E /* GameState_Play.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B592B0921A85D5E0081E83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		6B592B0A21A85D5E0081E83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		6B592B0C21A85D5E0081E83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EC9AK89JE;
+				INFOPLIST_FILE = "Metroid Doom/Metroid Doom-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B592B0D21A85D5E0081E83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EC9AK89JE;
+				INFOPLIST_FILE = "Metroid Doom/Metroid Doom-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B592AF021A85D5E0081E83E /* Build configuration list for PBXProject "Metroid Doom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B592B0921A85D5E0081E83E /* Debug */,
+				6B592B0A21A85D5E0081E83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B592B0B21A85D5E0081E83E /* Build configuration list for PBXNativeTarget "Metroid Doom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B592B0C21A85D5E0081E83E /* Debug */,
+				6B592B0D21A85D5E0081E83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B592AED21A85D5E0081E83E /* Project object */;
+}
