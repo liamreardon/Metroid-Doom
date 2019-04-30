@@ -3,6 +3,9 @@
 
 ## How to run
 
+### Dependencies
+SFML (Must have this on your system to run project code)
+
 ### Option 1: Xcode
 1. `Clone this repo`
 2. `Link SFML library to Xcode`
